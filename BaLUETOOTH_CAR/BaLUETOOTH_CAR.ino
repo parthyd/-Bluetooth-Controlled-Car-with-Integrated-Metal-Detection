@@ -13,8 +13,8 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available() > 0) { // Check if data is available to read
-    command = Serial.read(); // Read the incoming byte
+  if (Serial.available() > 0) { 
+    command = Serial.read(); 
     
     // Execute the corresponding command
     switch (command) {
